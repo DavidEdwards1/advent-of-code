@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aoc-python-2023"
+version = "0.1.0"
+description = ""
+authors = ["David Edwards <david.edwards@freeagent.com>"]
+readme = "README.md"
+packages = [{include = "aoc_python_2023", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
